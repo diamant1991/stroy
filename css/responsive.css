@@ -747,6 +747,19 @@
 	#topbar .contact-info ul li a {margin-right: 35px;}
 
 }
+@media(min-width: 768px){
+	html,
+	body{
+		height: 100%;
+	}
+	.top-block{
+	  min-height: 100%;
+	  padding-bottom: 532px;
+	}
+	.bottom-block{
+  	margin-top: -532px;
+	}
+}
 
 @media only screen and (max-width: 767px) {
 	.container {
@@ -1826,13 +1839,5 @@
 	.cart-page .table > tbody > tr > td.del-item {
 		text-align: left;
 	}
-	/*
-	Label the data
-	*/
-	td:nth-of-type(1):before { content: "Preview"; }
-	td:nth-of-type(2):before { content: "Product"; }
-	td:nth-of-type(3):before { content: "Price"; }
-	td:nth-of-type(4):before { content: "Quantity"; }
-	td:nth-of-type(5):before { content: "Total"; }
-	td:nth-of-type(6):before { content: "Delete Item"; }
+
 }

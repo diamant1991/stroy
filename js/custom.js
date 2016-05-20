@@ -241,8 +241,10 @@ function GalleryFancyboxActivator () {
 		galleryFcb.fancybox({
 			openEffect  : 'elastic',
 			closeEffect : 'elastic',
-			helpers : {
-				media : {}
+			helpers: {
+				overlay: {
+					locked: false
+				}
 			}
 		});
 	}
