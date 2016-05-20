@@ -755,6 +755,7 @@
 	.top-block{
 	  min-height: 100%;
 	  padding-bottom: 532px;
+	  overflow: hidden;
 	}
 	.bottom-block{
   	margin-top: -532px;
