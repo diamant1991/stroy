@@ -5486,7 +5486,7 @@ header.construct .cart-box {
     overflow: hidden;
 }
 #welcome-to-construct .col-lg-7 {
-    padding: 15px 50px;
+  padding: 30px 20px;
 }
 #welcome-to-construct .col-lg-7 h2 {
     font-size: 24px;
@@ -5931,10 +5931,12 @@ header.construct .cart-box {
 
 
 /** ====== footer construct styles ====== **/
-
+.shop-page-content .single-shop-item .meta h4 a{
+  color: #000;
+}
 footer.construct {
     background: #161616;
-    padding: 80px 0 0px;
+    padding: 30px 0 0px;
 }
 footer.construct .container {
     border-top: 0;

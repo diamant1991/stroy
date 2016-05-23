@@ -36,7 +36,7 @@ function testimonailCarosule () {
 	if ($('#testimonials-construct-home .owl-carousel').length) {
 		$('#testimonials-construct-home .owl-carousel').owlCarousel({
 		    loop: true,
-		    margin: 30,
+		    margin: 0,
 		    nav: true,
 		    dots: false,
             navText: [
@@ -51,13 +51,13 @@ function testimonailCarosule () {
 		            items:1
 		        },
 		        480:{
-		            items:1
+		            items:2
 		        },
 		        600:{
-		            items:1
+		            items:3
 		        },
 		        1000:{
-		            items:2
+		            items:4
 		        }
 		    }
 		});
@@ -68,7 +68,7 @@ function teamCarosule () {
 	if ($('#our-team-construct .owl-carousel').length) {
 		$('#our-team-construct .owl-carousel').owlCarousel({
 		    loop: true,
-		    margin: 30,
+		    margin: 0,
 		    nav: true,
 		    dots: false,
             navText: [
