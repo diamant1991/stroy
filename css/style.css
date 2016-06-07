@@ -6693,35 +6693,35 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
     margin-bottom: 0;
 }
 .service-two-tab-title ul li a {
-    font-family: 'Open Sans';
-    display: inline-block;
-    background: #F9F9F9;
-    border: 1px solid #E5E5E5;
-    font-size: 16px;
-    color: #222222;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-bottom: 5px;
-    padding: 14px 25px;
-    width: 100%;
-    max-width: 320px;
-    position: relative;
-    transition: all .3s ease;
+  font-family: 'Open Sans';
+  display: inline-block;
+  background: #F9F9F9;
+  border: 1px solid #E5E5E5;
+  font-size: 16px;
+  color: #222222;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  padding: 14px 25px;
+  width: 100%;
+  max-width: 320px;
+  position: relative;
+  transition: all .3s ease;
 }
 .service-two-tab-title ul li a i {
     margin-right: 10px;
     transition: all .3s ease;
 }
 .service-two-tab-title ul li a:before {
-    width: 5px;
-    height: 56px;
-    content: '';
-    position: absolute;
-    left: -2px;
-    top: -1px;
-    bottom: -1px;
-    background: transparent;
-    transition: all .3s ease;
+  width: 5px;
+  height: 100%;
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -1px;
+  bottom: -1px;
+  background: transparent;
+  transition: all .3s ease;
 }
 .service-two-tab-title ul li.active a:after {
     height: 100%;

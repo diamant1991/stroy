@@ -781,6 +781,9 @@
 		width: 100%;
 		height: 364px;
 	}
+	.tab-map ul li span{
+		margin-bottom: 0 !important;
+	}
 	#who-we-are .large-box {
 		margin-bottom: 20px;
 	}
