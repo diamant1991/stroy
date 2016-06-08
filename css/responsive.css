@@ -676,6 +676,7 @@
 		text-transform: capitalize;
 		transition: all 0.3s ease 0s;
 	}
+
 	header nav.mainmenu-container ul > li > ul > li > a::after {
 		display: none;
 	}
@@ -765,6 +766,9 @@
 @media only screen and (max-width: 767px) {
 	.container {
 		padding: 0 15px;
+	}
+	.main-slider{
+		display: none;
 	}
 	button.navigation-toggler {
 		display: block;

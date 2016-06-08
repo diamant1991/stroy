@@ -6692,6 +6692,9 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 .service-two-tab-title ul li:last-child a {
     margin-bottom: 0;
 }
+.service-two-tab-title > ul > li{
+  margin-bottom: 5px;
+}
 .service-two-tab-title ul li a {
   font-family: 'Open Sans';
   display: inline-block;
@@ -6701,7 +6704,6 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
   color: #222222;
   font-weight: 500;
   text-transform: capitalize;
-  margin-bottom: 5px;
   padding: 14px 25px;
   width: 100%;
   max-width: 320px;
@@ -6723,7 +6725,7 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
   background: transparent;
   transition: all .3s ease;
 }
-.service-two-tab-title ul li.active a:after {
+.service-two-tab-title ul li.active > a:after {
     height: 100%;
     font-family: 'FontAwesome';
     content: '\f0d9 ';
@@ -6736,8 +6738,8 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
     background: transparent;
     transition: all .3s ease;
 }
-.service-two-tab-title ul li.active a,
-.service-two-tab-title ul li a:hover {
+.service-two-tab-title ul li.active > a,
+.service-two-tab-title ul li > a:hover {
     background: #212A3B;
     color: #FFFFFF;
     border-color: #212A3B;
@@ -6762,6 +6764,20 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
     width: 100%;
     background: rgba(239,166,0,.9);
     padding: 15px 30px 10px;
+}
+.menu-drop{
+  display: none;
+}
+.main-slider{
+  margin-top: 30px;
+}
+.menu-drop__icon{
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu-drop__text{
+  display: inline-block;
+  vertical-align: middle;
 }
 .single-sidebar.call-to-action-box .img-box .img-caption h4 {
     color: #fff;

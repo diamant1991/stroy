@@ -626,6 +626,20 @@ function expertizeRoundCircle () {
 		})(jQuery);		
 	});
 
+$(document).ready(function() {
+	$('.drop-toggle').click(function(e) {
+		e.preventDefault();
+		var menu = $(this).next()
+		if(menu.is(':hidden')){
+      menu.slideDown(350)
+      $(this).parent().addClass('active')
+		}
+		else{
+			menu.slideUp(350)
+			$(this).parent().removeClass('active')
+		}
+	});
+});
 
 
 
