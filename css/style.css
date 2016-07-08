@@ -6714,6 +6714,20 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
     margin-right: 10px;
     transition: all .3s ease;
 }
+.menu-drop > li{
+  position: relative;
+}
+.menu-drop > li:hover > a{
+  background: #212A3B;
+  color: #FFFFFF;
+  border-color: #212A3B;
+}
+.third-level{
+  z-index: 10;
+  background: #fff;
+  z-index: 50;
+  display: none;
+}
 .service-two-tab-title ul li a:before {
   width: 5px;
   height: 100%;
@@ -6767,6 +6781,13 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 }
 .menu-drop{
   display: none;
+}
+.menu-drop .fa-angle-right{
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 50%;
+  margin-top: -8px;
 }
 .main-slider{
   margin-top: 30px;

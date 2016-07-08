@@ -641,5 +641,23 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
+	if(window.matchMedia('(max-width: 767px)').matches){
+		$('.menu-drop > li > a').click(function(e) {
+			e.preventDefault();
+			var menu = $(this).next()
+				if(menu.is(':hidden')){
+	      menu.slideDown(350)
+	      $(this).parent().addClass('active')
+			}
+			else{
+				menu.slideUp(350)
+				$(this).parent().removeClass('active')
+			}
+		});
+	}
+});
+
+
 
 

@@ -758,6 +758,18 @@
 	  padding-bottom: 532px;
 	  overflow: hidden;
 	}
+	.third-level{
+	  position: absolute;
+	  z-index: 10;
+	  background: #fff;
+	  z-index: 50;
+	  top: 0;
+	  left: 270px;
+	  width: 270px;
+	}
+	.menu-drop > li:hover .third-level{
+	  display: block;
+	}
 	.bottom-block{
   	margin-top: -532px;
 	}
